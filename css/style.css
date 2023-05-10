@@ -1,0 +1,279 @@
+/*
+RESET
+ */
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ /* 
+ GENERAL
+ */
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+ }
+
+ /* DEBUG */
+
+ /* 
+ NAV BAR
+ */
+.debug header{
+   display: flex;
+   height: 70px;
+   background-color: #ADD8E6;  
+   justify-content: center;
+   align-content: center;
+}
+.nav-container{
+   display: flex;
+   background-color: #DAA520;
+   width: 1000px;
+   height: 40px;
+   align-items: center;
+   margin-top: 15px;
+   justify-content: space-between;
+   border: 3px dashed black;
+   
+}
+
+.logo{
+   margin-left: 4px;
+   line-height: 2.2em;
+   width: 25%;
+   border-right: 2px dashed black;
+}
+.login{
+   text-align: end;
+   line-height: 2.2em;
+   width: 25%;
+   border-left: 2px dashed black;
+   margin-right: 4px;
+}
+
+/*
+
+FINE NAV BAR
+
+*/
+
+/* 
+
+MAIN
+
+*/
+
+/* 
+
+SECTION 1
+
+*/
+
+.my-row-1{
+
+   background-color: #00008B;
+   height: 450px;
+   padding-top: 50px;
+}
+
+.container-main-1{
+   background-color: #EE82EE;
+   width: 750px;
+   height: 350px;
+   border: 2px dashed black;
+   margin-bottom: 50px;
+   margin-left: 370px;
+
+}
+
+/* 
+
+FINE SECTION 1
+
+*/
+
+
+/* 
+
+SECTION 2
+
+*/
+
+
+.my-row-2{
+
+   background-color: #FFFFFF;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container-main-3{
+   background-color: #FFC0CB;
+   width: 30%;
+   height: 450px;
+   border: 2px dashed black;
+}
+.container-main-2{
+   background-color: #1E90FF;
+   width: 50%;
+   height: 450px;
+   border: 2px dashed black;
+}
+
+/* 
+
+SECTION 3
+
+*/
+
+.my-row-3{
+
+   background-color: #D3D3D3;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container-main-4{
+   background-color: #FFC0CB;
+   width: 30%;
+   height: 450px;
+   border: 2px dashed black;
+}
+.container-main-5{
+   background-color: #1E90FF;
+   width: 50%;
+   height: 450px;
+   border: 2px dashed black;
+}
+
+/* 
+
+SECTION 4
+
+*/
+
+.my-row-4{
+
+   background-color: #FFFFFF;
+   height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container-main-7{
+   background-color: #FFC0CB;
+   width: 30%;
+   height: 450px;
+   border: 2px dashed black;
+}
+.container-main-6{
+   background-color: #1E90FF;
+   width: 50%;
+   height: 450px;
+   border: 2px dashed black;
+}
+
+
+/* 
+
+SECTION 5
+
+*/
+.my-row-5{
+
+   background-color: #D3D3D3;
+   height: 800px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container-main-8{
+   background-color: #228B22;
+   width: 80%;
+   height: 700PX;
+   border: 2px dashed black;
+}
+
+/* 
+
+SECTION 6
+
+*/
+.my-row-6{
+
+   background-color: #222629;
+   height: 750px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container-main-9{
+   background-color: #F08080;
+   width: 30%;
+   height: 600PX;
+   border: 2px dashed black;
+}
+
+.container-main-10{
+   background-color: #20B2AA;
+   width: 13%;
+   height: 600PX;
+   border: 2px dashed white;
+}
+
+/* 
+
+FOOTER
+
+*/
+
+footer{
+
+   background-color: #222629;
+   display: flex;
+   justify-content: center;
+   margin-top: 2px;
+
+}
+
+.footer-container{
+   display: flex;
+   background-color: #7FFFD4;
+   width: 1250px;
+   height: 60px;
+   align-items: center;
+   margin-top: 15px;
+   justify-content: space-between;
+   
+}
+.logo-2{
+   margin-left: 4px;
+   line-height: 2.2em;
+   width: 5%;
+   border: 2px dashed black;
+   background-color:  #F08080;
+   text-align: center;
+}
+.button{
+   text-align: end;
+   line-height: 2.2em;
+   width: 6%;
+   border: 2px dashed black;
+   margin-right: 4px;
+   background-color: #F08080;
+   text-align: center;
+
+}
